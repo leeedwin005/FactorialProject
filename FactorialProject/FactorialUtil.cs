@@ -23,7 +23,7 @@ namespace FactorialProject
                 }
                 else
                 {
-                    return x * GetFactorial(x - 1);
+                    return x * GetFactorial(x - 1) - 1;
                 }
             }
         }
